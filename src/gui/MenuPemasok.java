@@ -324,7 +324,6 @@ public class MenuPemasok extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Input Kontak Harus Angka");
                 return;
             }
-            Integer kntk = Integer.valueOf(kontak);
             
             if (nmPmsk.equals("") || almt.equals("") || kontak.equals("") ){
                 JOptionPane.showMessageDialog(null, "Data tidak boleh kosong");
