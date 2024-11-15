@@ -106,7 +106,6 @@ public class CrudPemasok extends Menu {
             Database.preparedStatement.setInt(4, this.idPemasok);
             
             Database.preparedStatement.executeUpdate();
-            JOptionPane.showMessageDialog(null, "Pemasok berhasil diupdate");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error: " + e.getMessage());
         }

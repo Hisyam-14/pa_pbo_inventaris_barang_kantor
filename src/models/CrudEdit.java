@@ -136,7 +136,6 @@ public class CrudEdit extends Menu {
             Database.preparedStatement.setString(6, getIdBrg());
             
             Database.preparedStatement.executeUpdate();
-            JOptionPane.showMessageDialog(null, "Barang berhasil diupdate");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error: " + e.getMessage());
         }

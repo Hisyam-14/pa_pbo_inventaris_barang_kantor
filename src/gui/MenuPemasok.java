@@ -360,7 +360,6 @@ public class MenuPemasok extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Input Kontak Harus Angka");
                 return;
             }
-            Integer kntk = Integer.valueOf(updateKontak);
             
             if(updateNama.isEmpty()||updateAlamat.isEmpty()||updateKontak.isEmpty()){
                 JOptionPane.showMessageDialog(null, "Data Tidak Boleh Kosong");
@@ -399,7 +398,6 @@ public class MenuPemasok extends javax.swing.JFrame {
                 pemasok.setIdPemasok(selectedPemasokId);
                 pemasok.pemasokDelete();
                 
-                JOptionPane.showMessageDialog(null, "Delete Berhasil!");
                 loadPemasokData();
                 bersihkan();
                 selectedPemasokId = -1;

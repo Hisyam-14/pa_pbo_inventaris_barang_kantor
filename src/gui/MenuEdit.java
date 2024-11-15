@@ -396,6 +396,7 @@ public class MenuEdit extends javax.swing.JFrame {
         tJumlah.setText("");
         cIdPemasok.setSelectedItem("");
         bInsert.setEnabled(true);
+        tIdBarang.setEnabled(true);
     }
     
     private void bPemasokActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bPemasokActionPerformed
@@ -547,8 +548,7 @@ public class MenuEdit extends javax.swing.JFrame {
                 CrudEdit delete = new CrudEdit(selectedBrgId, selectedBrgId, selectedBrgId, selectedBrgId, NORMAL, WIDTH);
                 delete.setIdBrg(selectedBrgId);
                 delete.brgDelete();
-
-                JOptionPane.showMessageDialog(null, "Delete Berhasil!");
+                
                 loadBrg();
                 bersihkan();
                 selectedBrgId = null;
