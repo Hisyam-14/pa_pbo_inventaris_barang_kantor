@@ -31,3 +31,23 @@ Relational ERD
 
 ### USE CASE DIAGRAM
 ![use case pa drawio](https://github.com/user-attachments/assets/cf704426-836f-4b23-8f8b-0077ed7b1a59)
+
+### STRUKTUR PROJECT
+![struktur project](https://github.com/user-attachments/assets/06a29d63-0e47-40f3-ab5e-96b0496d5c4e)
+Project inventaris barang kantor ini terdiri dari 2 package yaitu:
+- GUI (Grapichal User Interface)
+  Package ini menangani antarmuka pengguna (GUI) dengan menyediakan elemen-elemen grafis dan komponen tampilan lainnya yang memungkinkan        pengguna berinteraksi dengan aplikasi.
+- Models
+  Package ini menangani proses-proses yang berhubungan dengan logika dan interaksi data, input, struktur database, validasi data, dan juga      alur control dari program secara keseluruhan.
+
+### SOURCE CODE DAN PENJELASAN
+
+### OUTPUT PROGRAM
+- Login
+  Berikut adalah tampilan dari login aplikasi, user perlu memasukkan username dan password yang benar untuk mengakses aplikasi.
+  ![login](https://github.com/user-attachments/assets/0a39a2f9-4ebe-42c7-b725-5c1b03946a1a)
+  Berikut tampilan program saat user salah memasukkan username atau password.
+  ![gagal login](https://github.com/user-attachments/assets/c52b8160-9e9c-493c-a903-536202c44976)
+- Menu Utama
+- 
+
