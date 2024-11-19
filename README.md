@@ -6,8 +6,9 @@ _Inventa Office_ adalah aplikasi pengelola inventaris barang yang dirancang untu
 
 Fitur Aplikasi:
 - Menu login: Untuk menjaga keamanan data pengguna harus login terlebih dahulu.
-- Menu edit: Pengguna dapat menambah, menghapus serta memperbarui data barang kantor sesuai dengan kebutuhan.
+- Menu edit barang: Pengguna dapat menambah, menghapus, memperbarui data barang kantor sesuai dengan kebutuhan, serta tambahan fitur clear apabila user salah menginput data.
 - Menu utama: Pengguna dapat melihat daftar barang yang terdata dalam aplikasi. Pilihan untuk sorting dan searching yang memudahkan pengguna dalam mencari dan menampilkan data barang sesuai dengan keinginan pengguna.
+- Menu Pemasok: Pengguna dapat menambah, menghapus, memperbarui data pemasok barang kantor, serta tambahan fitur clear apabila user salah menginput data.
 
 ### FLOWCHART
 Login Aplikasi
@@ -595,9 +596,10 @@ public class Utama {
 ### OUTPUT PROGRAM
 - Login
   Berikut adalah tampilan dari login aplikasi, user perlu memasukkan username dan password yang benar untuk mengakses aplikasi.
-  ![login](https://github.com/user-attachments/assets/0a39a2f9-4ebe-42c7-b725-5c1b03946a1a)
+  ![login](https://github.com/user-attachments/assets/531f7501-c056-4758-ae99-85b5e54c3214)
 
-  Berikut tampilan program saat user salah memasukkan username atau password.
+
+  Ketika user salah memasukkan username atau password, program akan memunculkan pop-up seperti berikut.
   ![gagal login](https://github.com/user-attachments/assets/c52b8160-9e9c-493c-a903-536202c44976)
 - Menu Utama
   Setelah login user akan langsung masuk ke dalam menu utama. Di dalam menu utama user dapat melihat daftar barang yang ada didalam inventaris beserta detail barangnya. Pada menu utama ini user juga dapat melakukan sorting dan searching berdasarkan beberapa kriteria. Berikut tampilan menu utama.
@@ -625,7 +627,7 @@ public class Utama {
   Berikut contoh tampilan menggunakan fitur update data barang. Update data barang dengan cara mengklik baris data dalam tabel yang ingin di update setelahnya user dapat mengganti data yang ingin di update.
   ![image](https://github.com/user-attachments/assets/d589f651-0010-47ba-a2ce-aabaa48651d2)
 
-  Berikut contoh tampilan menggunakan fitur deete barang. Menghapus data barang, dengan cara mengklik data yang ingin dihapus. Sebelum berhasil dihapus akan keluar pilihan apakah yakin ingin menghapus data barang atau tidak, jika memilih YES maka data telah berhasil dihapus dari table.
+  Berikut contoh tampilan menggunakan fitur delete barang. Menghapus data barang, dengan cara mengklik data yang ingin dihapus. Sebelum berhasil dihapus akan keluar pilihan apakah yakin ingin menghapus data barang atau tidak, jika memilih YES maka data telah berhasil dihapus dari table.
 
   ![image](https://github.com/user-attachments/assets/ec8f1fa2-3155-445e-b08f-8a44923027e9)
 
