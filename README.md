@@ -600,9 +600,9 @@ public class Utama {
 
 
   Ketika user salah memasukkan username atau password, program akan memunculkan pop-up seperti berikut.
-  ![Gagal Login](https://github.com/user-attachments/assets/f502be6d-d410-419b-989e-fc9eb4803291)
+  ![gagal login](https://github.com/user-attachments/assets/8dc26910-7626-4605-96a2-f2c64906583c)
 
-
+  
 
 - Menu Utama
   Setelah login user akan langsung masuk ke dalam menu utama. Di dalam menu utama user dapat melihat daftar barang yang ada didalam inventaris beserta detail barangnya. Pada menu utama ini user juga dapat melakukan sorting dan searching berdasarkan beberapa kriteria. Berikut tampilan menu utama.
