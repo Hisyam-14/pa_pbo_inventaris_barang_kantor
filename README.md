@@ -1,4 +1,10 @@
 # PROJECT AKHIR PEMROGRAMAN BERORIENTASI OBJEK
+## NAMA KELOMPOK:
+1. Davina Putri Izzati Gautama (2309116054)
+2. Cheirye Khehsye Cinta Silaban (2309116061)
+3. Ririn Yuliani Azahra Zardan (2309116065)
+4. Muhammad Fadillah Hisyam (2309116066)
+5. Julia Fatikhah Noor (2309116069)
 ## INVENTARIS BARANG KANTOR 
 -----  
 ### DESKRIPSI PROJECT
